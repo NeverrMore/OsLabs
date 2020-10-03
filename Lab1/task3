@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "menu:"
+echo "1. nano"
+echo "2. vi"
+echo "3. links"
+echo "4. finish"
+
+read command
+
+case $command in
+nano )
+  nano;;
+vi ) 
+  vi;;
+links )
+  links;;
+finish ) 
+  exit 0;;
+esac  
